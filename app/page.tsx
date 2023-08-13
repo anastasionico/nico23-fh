@@ -1,6 +1,11 @@
+import ArticleSection from "./components/ArticleSection";
+import Hero from './components/Hero';
+
 const Home = () => {
   return (
-    <main  >
+    <main>
+      <Hero/>
+      <ArticleSection/>
     </main>
   )
 };

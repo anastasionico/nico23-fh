@@ -7,9 +7,6 @@ config.autoAddCss = false;
 
 import { Comfortaa } from 'next/font/google';
 import Header from './components/Header';
-import Hero from './components/Hero';
-
-
 const comfortaa = Comfortaa({ subsets: ['latin'] })
 
 export const metadata = {
@@ -26,7 +23,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={ `container-fluid ${comfortaa.className}` }>
         <Header/>
-        <Hero/>
         {children}
 
         {/* <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous" /> */}

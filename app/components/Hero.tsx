@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Hero = () => {
     return (
-        <section className="d-flex align-items-center px-5" style={{
+        <section className="d-flex align-items-center px-3" style={{
             backgroundImage: `url("/img/copywriting-hero.jpg")`,
             height: '60vh',
             backgroundRepeat: 'no-repeat',

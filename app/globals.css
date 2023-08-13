@@ -6515,6 +6515,9 @@ textarea.form-control-lg{
 .align-bottom{
     vertical-align:bottom!important
 }
+.align-sub{
+    vertical-align:sub!important
+}
 .align-text-bottom{
     vertical-align:text-bottom!important
 }
@@ -10889,5 +10892,24 @@ textarea.form-control-lg{
     .d-print-none{
         display:none!important
     }
+}
+
+.article-home-section {
+    color: #35a;
+}
+.article-home-section-latest {
+    padding: 1rem;
+}
+.article-home-section-latest img {
+    width: 100%;
+    height:auto;
+    border-radius: 5px;
+}
+.article-home-section-latest p {
+    margin: 0;
+    padding: 1rem 0;   
+}
+.article-home-section-latest small {
+    opacity: 0.7;
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
