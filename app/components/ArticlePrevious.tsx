@@ -20,17 +20,19 @@ const ArticlePrevious = () => {
     ];
     const getArticles = articles.map((value) => {
         return (
-            <li>
+            <li className="my-3">
                 <h3>{value.title}</h3> 
-                <Link href={value.url} className="btn btn-primary">Read Article</Link>
-                <small>{value.published_at}</small>
+                <div>
+                    <small>{value.published_at}</small>
+                    <Link href={value.url} className="d-inline-block btn btn-primary float-end">Read Article</Link>
+                </div>
             </li>
         )
     });
 
     return (
-        <div className="card  my-3 article-home-section-latest">
-            <ul>
+        <div className="my-3 article-home-section-previous">
+            <ul className="article-previous-list">
                 {getArticles}
             </ul>
         </div>

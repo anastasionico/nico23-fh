@@ -13,8 +13,10 @@ const ArticleLatest = () => {
                 alt="Picture of the author"
             />  
             <p>this is a description of Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, doloribus. Ratione nulla quas, at rem dolor sequi beatae earum voluptate quia magnam tenetur porro reiciendis sint! Sit deserunt eius fugit!</p>
-            <Link href="/hello" className="btn btn-primary">Read Article</Link>
-            <small>11 Aug 2023</small>
+            <div>
+                <small className="align-middle">11 Aug 2023</small>
+                <Link href="/hello" className="d-inline-block btn btn-primary float-end">Read Article</Link>
+            </div>
         </div>
     )
 }
