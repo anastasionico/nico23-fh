@@ -8,9 +8,9 @@ const Hero = () => {
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
         }}>
-            <div className=" text-white">
-                <h1 className="mb-3">Freelancer Technical & <br/>Web Content Writer</h1>
-                <h3 className="mb-3">Artisan of the web</h3>
+            <div className="text-white">
+                <h1 className="mb-3">Freelancer Writer for Technical Content </h1>
+                <h5 className="mb-3">Artisan of the web</h5>
                 <Link href="/contact" className="btn btn-secondary mb-3">Contact</Link>
             </div>
         </section>

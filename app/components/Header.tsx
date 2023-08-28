@@ -3,11 +3,12 @@ import Link from "next/link";
 
 const Header = () => {
     return (
-        <header className="px-5 py-3 bg-primary text-white text-center">
-            <div className="col-sm-12 col-md-6">
+        <header className="px-3 py-3 bg-primary text-white text-center header">
+            <div className="col-sm-12 col-md-6 d-inline-block header-logo">
                 <h3>anastasio<span className="logoNico">nico.uk</span></h3>
             </div>
-            <div className="col-sm-12 col-md-6">
+            
+            <div className="col-sm-12 col-md-6 d-inline-block header-menu">
                 <nav className="text-white">
                     <Link href="/blog" className="mx-3">Blog</Link>
                     <Link href="/contact" className="mx-3">Contact</Link>

@@ -33,13 +33,13 @@
     --bs-light:#f8f9fa;
     --bs-dark:#212529;
     --bs-primary-rgb:51,85,170;
-    --bs-secondary-rgb:108,117,125;
+    --bs-secondary-rgb:51,170,170;
     --bs-success-rgb:25,135,84;
     --bs-info-rgb:13,202,240;
     --bs-warning-rgb:255,193,7;
     --bs-danger-rgb:220,53,69;
     --bs-light-rgb:248,249,250;
-    --bs-dark-rgb:33,37,41;
+    --bs-dark-rgb:51,85,170;
     --bs-primary-text-emphasis:#052c65;
     --bs-secondary-text-emphasis:#2b2f32;
     --bs-success-text-emphasis:#0a3622;
@@ -70,10 +70,10 @@
     --bs-font-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
     --bs-gradient:linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
     --bs-body-font-family:var(--bs-font-sans-serif);
-    --bs-body-font-size:1rem;
+    --bs-body-font-size:14px;
     --bs-body-font-weight:400;
     --bs-body-line-height:1.5;
-    --bs-body-color:#212529;
+    --bs-body-color:#3355aa;
     --bs-body-color-rgb:33,37,41;
     --bs-body-bg:#fff;
     --bs-body-bg-rgb:255,255,255;
@@ -2819,7 +2819,7 @@ textarea.form-control-lg{
     --bs-btn-hover-color:#fff;
     --bs-btn-hover-bg:#3aa;
     --bs-btn-hover-border-color:#3aa;
-    --bs-btn-focus-shadow-rgb:108,117,125;
+    --bs-btn-focus-shadow-rgb:51,170,170;
     --bs-btn-active-color:#fff;
     --bs-btn-active-bg:#3aa;
     --bs-btn-active-border-color:#3aa;
@@ -10894,37 +10894,29 @@ textarea.form-control-lg{
     }
 }
 
-.article-home-section {
-    color: #35a;
+@media (min-width:768px) {
+    .header {
+        .header-logo {
+            text-align: left;
+        }
+
+        .header-menu {
+            text-align: right;
+        }
+    }
 }
-.article-home-section-latest {
-    padding: 1rem;
-}
+
+
 .article-home-section-latest img {
     width: 100%;
     height:auto;
-    border-radius: 5px;
-}
-.article-home-section-latest p {
-    margin: 0;
-    padding: 1rem 0;   
-}
-.article-home-section-latest small {
-    opacity: 0.7;
 }
 
 .article-previous-list {
     padding-left: 0;
-    list-style-type: none;
 }
+
 .article-previous-list  li{
     border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 1rem;
 }
 
-.article-previous-list  a{
-    display: block;
-}
-
-/*# sourceMappingURL=bootstrap.min.css.map */
